@@ -33,6 +33,7 @@ brew cask install --appdir="/Applications" sublime-text3
 brew cask install --appdir="/Applications" textwrangler
 brew cask install --appdir="/Applications" vagrant
 # brew cask install --appdir="/Applications" virtualbox
+brew cask install --appdir="/Applications" vmware-fusion
 
 # Additional apps
 echo Installing some additional apps…
