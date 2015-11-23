@@ -1,6 +1,6 @@
 # Update Repos
 
-for dir in {BuildingBlocks,GitHub}; do
+for dir in {GitHub}; do
 	cd ~/Sites/$dir
 
 	for n in *; do
