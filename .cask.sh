@@ -33,12 +33,14 @@ brew cask install --appdir="/Applications" sublime-text3
 brew cask install --appdir="/Applications" textwrangler
 brew cask install --appdir="/Applications" vagrant
 # brew cask install --appdir="/Applications" virtualbox
+brew cask install --appdir="/Applications" vmware-fusion
 
 # Additional apps
 echo Installing some additional apps…
 brew cask install --appdir="/Applications" appcleaner
 brew cask install --appdir="/Applications" recordit
 brew cask install --appdir="/Applications" skype
+brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" tunnelbear
 # brew cask install --appdir="/Applications" utorrent
