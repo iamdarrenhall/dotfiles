@@ -7,9 +7,8 @@ alias editHosts="sudo nano /private/etc/hosts"
 # dir navigation
 alias cdd="cd ~/Desktop"
 alias cds="cd ~/Sites"
-alias cdbb="cd ~/Sites/BuildingBlocks"
+alias cdc="cd ~/Sites/CodeComputerlove"
 alias cdg="cd ~/Sites/GitHub"
-alias cdl="cd ~/Sites/Labs"
 
 # shortcuts
 alias ..="cd ../"
@@ -19,27 +18,14 @@ alias l="ls -la"
 alias rem="sudo rm -R"
 alias restart="sudo apachectl restart"
 alias updateRepos="bash ~/.update-repos.sh"
+alias op="open *.sublime-project"
 
 # hacks to show/hide hidden/dot files
 alias showFiles="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app"
 alias hideFiles="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app"
 
-# laziness
-alias sbl="open -a /Applications/Sublime\ Text.app "
-alias trello="open -a /Applications/Trello.app" # Trello Fluid app
-alias url="open -a /Applications/Google\ Chrome.app "
-alias op="open *.sublime-project"
-
-# puuure laziness
-alias bitbucket="open -a /Applications/Google\ Chrome.app https://bitbucket.org"
-alias drive="open -a /Applications/Google\ Chrome.app http://drive.google.com"
-alias github="open -a /Applications/Google\ Chrome.app https://github.com"
-alias mail="open -a /Applications/Google\ Chrome.app http://mail.google.com"
-alias travis="open -a /Applications/Google\ Chrome.app https://travis-ci.org"
-
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-
 
 # See Mathias Bynens' dotfiles {https://github.com/mathiasbynens/dotfiles/blob/master/.aliases} for the below
 # Detect which `ls` flavor is in use
