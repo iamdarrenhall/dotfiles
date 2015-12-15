@@ -21,13 +21,11 @@ brew cask install --appdir="/Applications" google-chrome-canary
 echo Installing dev apps…
 brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" color-oracle
-# brew cask install --appdir="/Applications" cord # Uncomment if you want this instead of RCD
 brew cask install --appdir="/Applications" evernote
 brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim
 # brew cask install --appdir="/Applications" mamp # Cos you’ll need it SOME time…
-brew cask install --appdir="/Applications" remote-desktop-connection # Comment this out if you want CoRD instead
 brew cask install --appdir="/Applications" sublime-text3
 # brew cask install --appdir="/Applications" sourcetree # Cos you’ll need a GUI SOME time…
 brew cask install --appdir="/Applications" textwrangler
