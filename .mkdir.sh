@@ -1,3 +1,5 @@
 # Create my standard directory structure
 
-mkdir -p ~/Sites/{GitHub}
+mkdir -p ~/Repositories
+sudo mkdir /r
+sudo ln -s ~/Repositories /r
