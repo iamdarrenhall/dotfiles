@@ -25,9 +25,6 @@ brew install node
 echo Installing Imagemagick…
 brew install imagemagick
 
-# echo Installing MongoDB…
-brew install mongodb
-
 # Install Brew Cask for managing other apps
 echo Installing Brew Cask…
 brew install caskroom/cask/brew-cask
