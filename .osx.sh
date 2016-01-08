@@ -35,6 +35,11 @@ defaults write com.apple.universalaccess closeViewSmoothImages -bool false
 # Disable volume change feedback sounds
 defaults write -g "com.apple.sound.beep.feedback" -int 0
 
+# Hide Spotlight welcome text
+defaults write com.apple.Spotlight useCount -int 3
+defaults write com.apple.Spotlight showedFTE -bool YES
+killall Spotlight
+
 # Disable scrollbars by default
 defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
 
